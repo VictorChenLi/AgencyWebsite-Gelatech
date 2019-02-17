@@ -8,6 +8,9 @@
   .main-wrapper-onepage.angles .result-box {
     padding: 40% 0;
   }
+  .service-item-box{
+    height: 380px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -17,6 +20,9 @@
   }
   .section-wrap {
     padding: 90px 0;
+  }
+  .service-item-box{
+    height: 280px;
   }
   .service-item-box,
   .team-member,
