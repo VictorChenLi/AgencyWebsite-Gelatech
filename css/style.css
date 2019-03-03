@@ -1293,7 +1293,7 @@ p {
   margin-right: -40px; }
 
 .our-team .team-wrap {
-  padding: 0 40px; }
+  padding: 20px 40px; }
 
 .our-team .container-fluid {
   padding: 0 50px; }
@@ -3186,7 +3186,7 @@ label {
 /* Footer
 /*-------------------------------------------------------*/
 .footer.minimal {
-  padding: 120px 0;
+  padding: 50px 0;
   text-align: center; }
 
 .footer.minimal .copyright {
