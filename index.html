@@ -600,8 +600,8 @@
   <!-- 
     1. Generate your key here - https://developers.google.com/maps/documentation/javascript/get-api-key
     2. Paste your key in the script below.
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
   -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoQ3_zzRfW-hYspkwr5kvwCwLPGZsN4nw"></script>
   <script type="text/javascript" src="js/gmap3.js"></script>
   <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
@@ -622,45 +622,6 @@
       f.width = '100%'; 
       f.height = '380px';
       $('#timify-iframe').append(f);
-    });
-  </script>
-
-  <!-- Google Map -->
-  <script type="text/javascript">
-    $(document).ready( function(){
-
-      var gmapDiv = $("#google-map");
-      var gmapMarker = gmapDiv.attr("data-address");
-
-      gmapDiv.gmap3({
-        zoom: 16,
-        address: gmapMarker,
-        oomControl: true,
-        navigationControl: true,
-        scrollwheel: false,
-        styles: [
-          {
-          "featureType":"all",
-          "elementType":"all",
-            "stylers":[
-              { "saturation":"-70" }
-            ]
-        }]
-      })
-      .marker({
-        address: gmapMarker,
-        icon: "img/map_pin.png"
-      })
-      .infowindow({
-        content: "V Tytana St, Manila, Philippines"
-      })
-      .then(function (infowindow) {
-        var map = this.get(0);
-        var marker = this.get(1);
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-      });
     });
   </script>
 
