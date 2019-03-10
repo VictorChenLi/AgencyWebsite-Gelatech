@@ -33,7 +33,8 @@
   background-repeat: no-repeat; }
 
 .section-wrap-mp {
-  padding: 100px 0; }
+  padding: 100px 0; 
+}
 
 .color-white {
   color: #fff !important; }
@@ -3185,13 +3186,16 @@ label {
 /*-------------------------------------------------------*/
 /* Footer
 /*-------------------------------------------------------*/
+.brand-text {
+  text-transform: capitalize;
+}
 .footer.minimal {
   padding: 50px 0;
   text-align: center; }
 
 .footer.minimal .copyright {
   display: block;
-  margin-top: 70px;
+  /*margin-top: 70px;*/
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
